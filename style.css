@@ -1,0 +1,121 @@
+:root {
+    font-size: 16px;
+    font-family: 'Red Hat Display';
+    --text-primary: #2c5530;
+    --text-secondary: #1a331d;
+    --bg-primary: #f0f7f1;
+    --bg-secondary: #ffffff;
+}
+
+body {
+    background-color: #e8f5e9;
+    margin: 0;
+    padding: 0;
+}
+
+html ::-webkit-scrollbar {
+    width: 0.25rem;
+}
+html ::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+html ::-webkit-scrollbar-thumb {
+    background: #4caf50;
+}
+main {
+    margin-left: 5rem;
+    padding: 1 rem;
+}
+
+.navbar {
+    width: 4.5rem;
+    height: 100vh;
+    position: absolute;
+    border-bottom: 1rem #e8f5e9;
+    background-color: var(--bg-primary);
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 1.4rem;
+    display: flex;
+    flex-direction: column;
+}
+.nav-item:hover {
+    transform: translateY(-10px);
+}
+.nav-item:last-child {
+    margin-top: auto;
+}
+.nav-item {
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+
+h1 {
+    font-size: 100px;
+    color: #2e7d32;
+}
+
+#myName {
+    font-family: 'Red Hat Display';
+    position: absolute;
+    left: 9.7%;
+    top: 3.5%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#content {
+    font-family: 'Red Hat Display';
+    margin-top: 50px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    height: 100vh;
+    background-color: var(--bg-secondary);
+    gap: 10px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.button {
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+}
+.button:hover {
+    transform: translateY(-10px);
+}
+
+.social-icons {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: translateY(-10px);
+    color: #4caf50;
+}
+
+.social-icon svg {
+    width: 2.5rem;
+    height: 2.5rem;
+}
