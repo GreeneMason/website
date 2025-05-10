@@ -16,12 +16,15 @@ body {
 html ::-webkit-scrollbar {
     width: 0.25rem;
 }
+
 html ::-webkit-scrollbar-track {
     background: #ffffff;
 }
+
 html ::-webkit-scrollbar-thumb {
     background: #4caf50;
 }
+
 main {
     margin-left: 5rem;
     padding: 1 rem;
@@ -37,6 +40,7 @@ main {
     justify-content: center;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
+
 .navbar-nav {
     list-style: none;
     padding: 0;
@@ -44,12 +48,15 @@ main {
     display: flex;
     flex-direction: column;
 }
+
 .nav-item:hover {
     transform: translateY(-10px);
 }
+
 .nav-item:last-child {
     margin-top: auto;
 }
+
 .nav-item {
     transition-property: transform;
     transition-duration: 0.2s;
@@ -87,12 +94,14 @@ h1 {
     justify-content: space-around;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
 .button {
     transition-property: transform;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
     transition-delay: 0s;
 }
+
 .button:hover {
     transform: translateY(-10px);
 }
