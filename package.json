@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "A portfolio",
+  "main": "js.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreeneMason/website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GreeneMason/website/issues"
+  },
+  "homepage": "https://github.com/GreeneMason/website#readme",
+  "devDependencies": {
+    "jest": "^30.0.2"
+  }
+}
